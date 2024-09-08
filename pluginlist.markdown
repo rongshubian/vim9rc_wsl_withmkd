@@ -3,11 +3,12 @@ git clone https://github.com/iamcco/markdown-preview.nvim.git
 img-paste.vim （plugin 目录）
 git clone https://github.com/img-paste-devs/img-paste.vim.git
 
-vim-autotags   -- 下载+修改     
-vim-cscopemaps  -- 下载      
+vim-autotags   -- 下载+修改   （添加余快修改）  
+git clone https://github.com/basilgor/vim-autotags.git
 vim-leaderf  -- 待定       
-vim-ctrlp2.0 -- 替换为vim-gutentags  
+git clone https://github.com/Yggdroot/LeaderF.git
 vim-mru          
+git clone https://github.com/yegappan/mru.git
 
 vim-easyalign （根据=、{、空格等各种方式对齐）
 git clone https://github.com/junegunn/vim-easy-align.git      
@@ -21,17 +22,13 @@ vim-powerlinefont -- 替换为vim-airline-theme
 git clone https://github.com/vim-airline/vim-airline-themes      
       
 
-vim-cSyntaxAfter  -- 待定       
 vim-easymotion2.0(升级为3.0)
- git clone https://github.com/easymotion/vim-easymotion.git ./vim-easymotion
+git clone https://github.com/easymotion/vim-easymotion.git ./vim-easymotion
 vim-locate（gl 搜索当前单词，可替代的比较多ctags、easymotion sn搜索）
- git clone https://github.com/mtth/locate.vim.git               
-vim-quickfix （余快自己写的插件，暂时不用）            
-
-vim-clangautocompletion -- 待定  
+git clone https://github.com/mtth/locate.vim.git               
 
 vim-mark（原作者Yuheng Xie不维护了，） 
-  git clone https://github.com/inkarkat/vim-mark.git
+git clone https://github.com/inkarkat/vim-mark.git
 git clone https://github.com/inkarkat/vim-ingo-library.git （vim-mark 的依赖）
 不安装依赖直接报错
 Error detected while processing function mark#MarkCurrentWord[13]..mark#DoMark:
